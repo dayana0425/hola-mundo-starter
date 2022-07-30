@@ -1,27 +1,27 @@
-# 🦄 Web3 Starter Kit
+# 👋 Hola Mundo Web3 Starter Kit
 
-A starter project to get you to quickly start building on Ethereum and Polygon! 💜
->Stack Used: Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI 🚀
->Wallet Connect: Goerli & Polygon Mumbai (Test Networks Only)
+A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
+
+* Stack Used: Typescript, Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI
+* Networks: Goerli & Polygon Mumbai
+
 # 🏄‍♂️ Quick Start
 
-Before you clone this project make sure you have the following installed on your machine: 
-* [Node (v16 LTS)](https://nodejs.org/en/download/), 
+### Before you clone this project make sure you have the following installed on your machine (In this order): 
+* [Node.js](https://nodejs.org/en/)
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 * [Git](https://git-scm.com/downloads)
 
-Create a new Metamask Burner Wallet, an Alchemy Account, and a Etherscan Account
-* [Metamask](https://metamask.io/) (IMPORTANT: It is recommended you create a burner wallet to be used for development only, do not use your regular metamask wallet!)
-* [Alchemy](https://www.alchemy.com/) 
-* [Etherscan](https://etherscan.io/apis)
+### Create a Burner Wallet, Alchemy Account, and Etherscan Account:
+* [Metamask](https://metamask.io/) (IMPORTANT: It is recommended you create a burner wallet to be used for development only, avoid using your regular metamask wallet!)
+* [Alchemy](https://www.alchemy.com/): After signing up, generate an api key for goerli & mumbai!
+* [Etherscan](https://etherscan.io/apis): After signing up, generate an api key!
 
-Set Enviornment Variables:
-* Create a `.env` file inside of `hardhart/` by duplicating the `.env.example` file 
-* Replace the value of `MUMBAI_ALCHEMY_KEY = xxx` & `GOERLI_ALCHEMY_KEY = xxx` in `packages/hardhat/.env.example` with your api keys
-* Replace the value of `PRIVATE_KEY = xxx` with your account's private key
-* Replace the value of `ETHERSCAN_KEY = xxx` with your etherscan api key
-  
-> Now you're ready to fork/clone this web3 start kit and get building!:
+### Fund Your Account(s):
+* [Georli Faucet](https://goerlifaucet.com/)
+* [Polygon Faucet (Mumbai Network)](https://faucet.polygon.technology/)
+
+### Now you're ready to fork/clone this starter kit and get building!:
 * First, fork this project by clicking the fork button in the upper right hand corner of the repo page.
 * Second, open your terminal and run the following command with the correct inputs:
 
@@ -42,7 +42,18 @@ yarn install
 yarn dev
 ```
 
-> deploy your smart contract to a test network!
+### Set Enviornment Variables Before Deploy Your Smart Contracts:
+* Create a `.env` file inside of `hardhat/` by duplicating the `.env.example` file provided
+* Replace the value of `MUMBAI_ALCHEMY_KEY = ***` & `GOERLI_ALCHEMY_KEY = ***` in `packages/hardhat/.env.example` with your api keys that you created earlier.
+* Replace the value of `PRIVATE_KEY = xxx` with your account's private key
+* Replace the value of `ETHERSCAN_KEY = xxx` with your etherscan api key
+
+
+### Deploy To Goerli Test Network!
+
+
+### Deploy To Mumbai Test Network!
+
 
 <br/>
 
