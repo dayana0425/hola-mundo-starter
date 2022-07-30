@@ -42,7 +42,7 @@ yarn install
 yarn dev
 ```
 
-### Set Enviornment Variables Before Deploy Your Smart Contracts:
+### Set Enviornment Variables Before Deploying Your Smart Contracts:
 * Create a `.env` file inside of `hardhat/` by duplicating the `.env.example` file provided
 * Replace the value of `MUMBAI_ALCHEMY_KEY = ***` & `GOERLI_ALCHEMY_KEY = ***` in `packages/hardhat/.env.example` with your api keys that you created earlier.
 * Replace the value of `PRIVATE_KEY = xxx` with your account's private key
