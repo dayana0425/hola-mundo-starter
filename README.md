@@ -7,7 +7,7 @@ A starter project to get you quickly setup for building your DApp on Ethereum an
 
 # 🏄‍♂️ Quick Start
 
-### Before you clone this project make sure you have the following installed on your machine (In this order): 
+### Before you fork/clone this project make sure you have the following installed on your machine (In this order): 
 * [Node.js](https://nodejs.org/en/)
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 * [Git](https://git-scm.com/downloads)
