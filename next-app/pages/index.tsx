@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Front end starter</title>
+        <title>Hola Mundo Starter</title>
       </Head>
 
       <main className={styles.main}>
@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
         <h1 className={styles.title}>
           Welcome to <a href="">RainbowKit</a> + <a href="">wagmi</a> +{' '}
-          <a href="https://nextjs.org">Next.js!</a> + <a href="https://tailwindcss.com/">TailwindCSS</a> +{' '}
+          <a href="https://nextjs.org">Next.js!</a> + <a href="https://tailwindcss.com/">TailwindCSS</a>
         </h1>
 
         <p className={styles.description}>
