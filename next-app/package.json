@@ -1,7 +1,8 @@
 {
-  "name": "hola-mundo-app",
+  "name": "@hola-mundo-web3-starter-kit/next-app",
   "private": true,
   "version": "0.1.0",
+  "description": "Front-End for Hola Mundo Web3 Starter",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

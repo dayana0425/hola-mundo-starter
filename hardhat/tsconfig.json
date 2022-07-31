@@ -8,6 +8,7 @@
     "declaration": true,
     "resolveJsonModule": true,
   },
-  "include": ["./scripts", "tests", "./typechain"],
+  "include": ["./scripts/*.ts", "./typechain", "**/*.ts", "**/*.tsx"],
+  "exclude": ["dist", "node_modules", "cache", "artifacts", "deployments"],
   "files": ["./hardhat.config.ts"]
 }

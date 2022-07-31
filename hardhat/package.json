@@ -1,8 +1,8 @@
 {
-  "name": "hola-mundo",
+  "name": "@hola-mundo-web3-starter-kit/hardhat",
   "version": "1.0.0",
-  "description": "FullStack Web3 Project",
-  "main": "index.js",
+  "description": "Smart Contracts for Hola Mundo Web3 Starter",
+  "main": "index.ts",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -11,14 +11,19 @@
     "test": "hardhat test --network hardhat",
     "compile": "hardhat compile",
     "deploy": "hardhat run scripts/deploy.ts",
-    "verify": "hardhat verify"
+    "verify": "hardhat verify",
+    "accounts": "hardhat accounts",
+    "hello": "hardhat hello"
   },
   "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
     "@openzeppelin/contracts": "^4.5.0",
     "@types/random-words": "^1.1.2",
     "chai": "^4.3.6",
     "hardhat": "^2.9.3",
-    "random-words": "^1.1.2"
+    "random-words": "^1.1.2",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.0.0"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.0",
@@ -31,7 +36,6 @@
     "@types/node": "^12.0.0",
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
-    "dotenv": "^10.0.0",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "^16.0.3",
@@ -40,7 +44,6 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-promise": "^5.1.0",
     "ethereum-waffle": "^3.0.0",
-    "ethers": "^5.0.0",
     "hardhat-abi-exporter": "^2.10.0",
     "hardhat-gas-reporter": "^1.0.4",
     "prettier": "^2.3.2",
