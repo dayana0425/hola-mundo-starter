@@ -1,0 +1,1 @@
+export const goerliContractAddress = "0xf7c2EA5321F282425cB9477e2a0086f4AF343243"

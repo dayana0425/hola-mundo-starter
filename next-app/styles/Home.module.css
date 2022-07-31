@@ -51,9 +51,10 @@
 }
 
 .description {
-  margin: 0 0 2rem;
+  margin: 0 0.3 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: rgb(187, 0, 255);
 }
 
 .grid {

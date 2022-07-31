@@ -2,32 +2,66 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { useState } from 'react';
+import { useNetwork, useContract, useProvider, useSigner } from 'wagmi';
 import styles from '../styles/Home.module.css';
 import connectContract from "../utils/connectContract";
 import Spinner from "./Components/Spinner";
+import abiJSON from "../utils/ABI/HolaMundo.json";
+
 
 
 const Home: NextPage = () => {
   const [greeting, setGreetingState] = useState('');
   const [newGreeting, setNewGreetingState] = useState('');
   const [showSpinner, setSpinner] = useState(false);
+  const { chain } = useNetwork();
+  const contractAddress = "0xbd699C6477ed5D98C499E8C9bd8Ea1E41D128DbA";
+  const contractABI = abiJSON;
+  const prov = useSigner();
+  console.log(prov)
+  const contractP = useContract({
+      addressOrName: contractAddress,
+      contractInterface: contractABI,
+      signerOrProvider: prov.data,
+  });
 
   async function fetchGreeting() {
-    const holaMundoContract = await connectContract();
-    const name = await holaMundoContract?.obtenerNombre();
-    if(name){
-      setGreetingState(name);
-      setSpinner(false);
+    if(chain && chain.name == "Polygon Mumbai") {
+      console.log("Polygon Mumbai")
+      const nombre = await contractP.obtenerNombre();
+      if(nombre){
+        setGreetingState(nombre);
+        setSpinner(false);
+      }
+    }
+    else {
+      const holaMundoContract = await connectContract();
+      const name = await holaMundoContract?.obtenerNombre();
+      if(name){
+        setGreetingState(name);
+        setSpinner(false);
+      }
     }
   }
-  
+
+
   async function setGreeting() {
-    const holaMundoContract = await connectContract();
-    const txn = await holaMundoContract?.cambiarNombre(newGreeting);
-    setSpinner(true);
-    setGreetingState('');
-    await txn.wait();
-    fetchGreeting();
+    if(chain && chain.name == "Polygon Mumbai") {
+      console.log("polygon")
+      const txnP = await contractP.cambiarNombre(newGreeting);
+      setSpinner(true);
+      setGreetingState('');
+      await txnP.wait();
+      fetchGreeting();
+    }
+    else{
+      const holaMundoContract = await connectContract();
+      const txn = await holaMundoContract?.cambiarNombre(newGreeting);
+      setSpinner(true);
+      setGreetingState('');
+      await txn.wait();
+      fetchGreeting();
+    }
   }
 
   return (
@@ -38,7 +72,15 @@ const Home: NextPage = () => {
       <main className={styles.main}>
 
         {/* Rainbow Kit - Connect Wallet Modal */}
-        <ConnectButton />
+        <ConnectButton chainStatus="icon"/>
+
+        {/* WAGMI useNetwork Info */}
+        <br></br>
+        <h1 className={styles.description}>      
+          {chain && <div><b>Currently Connected To:</b>
+          <br></br>
+          <u>{chain.name}</u></div>}
+        </h1>
 
         {/* Display Greeting */}
         <br></br>

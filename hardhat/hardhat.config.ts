@@ -22,8 +22,8 @@ task("hello", "Prints 'Hello, World!'", async () => {
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
-
-const { MUMBAI_API_URL, GOERLI_API_URL, PRIVATE_KEY } = process.env;
+const { MUMBAI_API_URL, GOERLI_API_URL, PRIVATE_KEY, ETHERSCAN_API_KEY } =
+  process.env;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.4",
@@ -61,7 +61,7 @@ const config: HardhatUserConfig = {
     currency: "USD",
   },
   etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY,
+    apiKey: ETHERSCAN_API_KEY,
   },
 };
 
