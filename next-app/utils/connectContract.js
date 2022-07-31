@@ -22,5 +22,5 @@ function connectContract() {
       }
       return contract;
 }
-  
-  export default connectContract;
+
+export default connectContract;
