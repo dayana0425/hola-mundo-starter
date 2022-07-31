@@ -2,13 +2,12 @@ import abiJSON from "./ABI/HolaMundo.json";
 import { ethers } from "ethers";
 
 function connectContract() {
-    const contractAddress = "0x0xAC7CE26A7d8Dd50EddEb4bd34EfEe4E02d7Be6B4";
-    const contractABI = abiJSON.abi;
+    const contractAddress = "0x5A10bc35892b08A17c154C223ff4550e842BeeF8";
+    const contractABI = abiJSON;
     let contract;
     try {
-        const { ethereum } = window;
-        if (ethereum.chainId === "0x13881") {
-          const provider = new ethers.providers.Web3Provider(ethereum);
+        if (window !== 'undefined' && typeof window.ethereum !== 'undefined') {
+          const provider = new ethers.providers.Web3Provider(window.ethereum);
           const signer = provider.getSigner();
           contract = new ethers.Contract(
             contractAddress,

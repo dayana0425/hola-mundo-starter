@@ -1,29 +1,76 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import { useState } from 'react';
 import styles from '../styles/Home.module.css';
 import connectContract from "../utils/connectContract";
+import Spinner from "./Components/Spinner";
+
 
 const Home: NextPage = () => {
+  const [greeting, setGreetingState] = useState('');
+  const [newGreeting, setNewGreetingState] = useState('');
+  const [showSpinner, setSpinner] = useState(false);
+
+  async function fetchGreeting() {
+    const holaMundoContract = await connectContract();
+    const name = await holaMundoContract?.obtenerNombre();
+    if(name){
+      setGreetingState(name);
+      setSpinner(false);
+    }
+  }
+  
+  async function setGreeting() {
+    const holaMundoContract = await connectContract();
+    const txn = await holaMundoContract?.cambiarNombre(newGreeting);
+    setSpinner(true);
+    setGreetingState('');
+    await txn.wait();
+    fetchGreeting();
+  }
+
   return (
     <div className={styles.container}>
       <Head>
         <title>Hola Mundo Starter</title>
       </Head>
-
       <main className={styles.main}>
+
+        {/* Rainbow Kit - Connect Wallet Modal */}
         <ConnectButton />
 
-        <h1 className={styles.title}>
-          Welcome to <a href="">RainbowKit</a> + <a href="">wagmi</a> +{' '}
-          <a href="https://nextjs.org">Next.js!</a> + <a href="https://tailwindcss.com/">TailwindCSS</a>
-        </h1>
+        {/* Display Greeting */}
+        <br></br>
+        <div className="space-y-8">
+          <div className="flex flex-row space-x-1">
+              <h1 className="p-2 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">{"Hola "}</h1>
+              { greeting ? <h1 className="p-2 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-green-400 to-red-600">{greeting}</h1> 
+              : <h1 className="p-2 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-pink-400 to-yellow-600"> 
+              { showSpinner ? <Spinner/> : "-???-"} </h1>}
+              <h1 className="p-2 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-orange-400 to-violet-600">!</h1>
+          </div>
+        </div>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        {/* Change Greeting */}
+        <br></br>
+        <div className="space-y-8">
+          <div className="flex flex-col space-y-4">
+            <input
+              className="border p-4 text-center"
+              onChange={e => setNewGreetingState(e.target.value)}
+              placeholder="Write New Greeting"/>
+            <button
+              className="bg-blue-600 hover:bg-blue-700 text-white py-4 px-8 rounded-md"
+              onClick={setGreeting}>
+              Change Greeting
+            </button>
+          </div>
+        </div>
 
+
+        {/* Documentation  */}
+        <br></br>
         <div className={styles.grid}>
           <a href="https://rainbowkit.com" className={styles.card}>
             <h2>RainbowKit Documentation &rarr;</h2>
