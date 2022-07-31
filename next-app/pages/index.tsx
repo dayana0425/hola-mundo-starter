@@ -69,7 +69,7 @@ const Home: NextPage = () => {
         </div>
 
 
-        {/* Documentation  */}
+        {/* Documentation Links  */}
         <br></br>
         <div className={styles.grid}>
           <a href="https://rainbowkit.com" className={styles.card}>
