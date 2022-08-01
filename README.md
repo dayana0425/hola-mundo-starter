@@ -6,12 +6,12 @@
 ![Figure 1](./images/holamundodapp.png)
 ---
 <p>
-Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon.
+Un proyecto inicial para configurar rápidamente la creación de tu DApp en Ethereum y Polygon.
 Este proyecto es considerado "multi-chain" porque es compatible con las redes de prueba de Goerli y Mumbai (Las redes de prueda de Ethereum y Polygon).
 </p>
 
-# 🤖 Pila De Tech e Información De Redes
-#### Pila De Tech Usado: 
+# 🤖 Stack De Tech e Información De Redes
+#### Stack De Tech utilizado: 
  - Typescript
  - Next.js
  - Tailwind CSS 
@@ -29,12 +29,12 @@ Este proyecto es considerado "multi-chain" porque es compatible con las redes de
 
 # 🏄‍♂️ Inicio Rápido
 
-### Antes de clonar este proyecto, asegúrese de tener instalado lo siguiente en su máquina (en esta orden)!
+### Antes de clonar este proyecto, asegúrate de tener instalado lo siguiente en tu máquina (en este orden)!
 * [Node.js](https://nodejs.org/en/) 
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 * [Git](https://git-scm.com/downloads)
 
-### Puedes verificar ejecutando estos comandos en su terminal para ver si ya los tienes instalados:
+### Puedes verificar ejecutando estos comandos en tu terminal para revisar si ya los tienes instalados:
 
 ```bash
 node -v
@@ -42,21 +42,21 @@ npm -v
 yarn -v
 git --version
 ```
-### Crea una billetera de desarollo con Metamask, una cuenta de Alchemy y de Etherscan
+### Crea una wallet de desarollo con Metamask, una cuenta de Alchemy y una de Etherscan
 * [Metamask](https://metamask.io/) 
-   * IMPORTANTE: se recomienda que crear una billetera solamente para desarrollo, ¡evite usar su billetera normal!
-   * Guarda tu llave privada en tus notas. 
+   * IMPORTANTE: se recomienda crear una wallet solamente para desarrollo, ¡evita usar tu wallet normal!
+   * Guarda la llave privada de esta wallet de desarrollo en tus notas. 
 * [Alchemy](https://www.alchemy.com/)
-  * Genere una clave api para goerli & mumbai.
+  * Genera una clave api para goerli & mumbai.
   * Guarda tus claves api y enlances en tus notas.
 * [Etherscan](https://etherscan.io/apis)
-  * Genere una clave api.
+  * Genera una clave api.
 
-### Agregue Redes Testnet para Goerli y Polygon Mumbai en Metamask:
+### Agrega las redes Testnet para Goerli y Polygon Mumbai en Metamask:
 * Cómo agregar redes de prueba de Ethereum: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
 * Cómo agregar Polygon Mumbai Testnet en Metamask: https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
 
-### Financie Sus Cuentas:
+### Fondea tus Cuentas con tokens de prueba:
 * [Georli Faucet](https://goerlifaucet.com/)
 * [Polygon Faucet (Mumbai Network)](https://faucet.polygon.technology/)
 
@@ -65,16 +65,16 @@ git --version
 ### Vamos a Construir!
 * Primero, `Fork` este proyecto haciendo clic en el botón de `Fork` en la esquina superior derecha de la página del repositorio.
 ![Figure 2](./images/fork.png)
-* Segundo, abra su terminal y ejecute el siguiente comando con las entradas correctas.
+* Segundo, abre tu terminal y ejecuta el siguiente comando con los nombres que correspondan en tu caso.
   
 ```bash
 git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
 ```
 ---
 
-### Instale todas las dependencias del proyecto 👷‍ cambiando los directorios a `hardhart/` y luego, `next-app/` y ejecutando `yarn install`:
+### Instala todas las dependencias del proyecto 👷‍ cambiando los directorios a `hardhart/` y luego, `next-app/` y ejecutando `yarn install`:
 
-* Primero: En una ventana de terminal, instala las dependencias para desarollo de smart contracts
+* Primero: En una ventana de terminal, instala las dependencias para el desarollo de smart contracts
 ```bash
 cd /hardhat
 yarn install
@@ -88,26 +88,26 @@ yarn install
 * Listo! 💘
 ---
 
-### Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
-* Vaya a hardhat/README.md para obtener más información sobre los comandos a ejecutar para compilar/desplegar smart contracts.
-* Vaya a next-app/README.md para obtener más información sobre los comandos a ejecutar para ejecutar su interfaz (front-end)
+### Tendrás dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
+* Ve a hardhat/README.md para obtener más información de los comandos a ejecutar para compilar/desplegar smart contracts.
+* Ve a next-app/README.md para obtener más información de los comandos a ejecutar para ejecutar tu interfaz (front-end)
 ---
 
-### 🚧 Logísticas
+### 🚧 Logística
 * 🔏 Edita tu smart contract `HolaMundo.sol` en `hardhat/contracts/`
 
 * 📝 Edita tu frontend `index.tsx` en `next-app/pages/`
 
-* 💼 Edita tu despliegue scripts `deployGoerli.ts` y `deployMumbai.ts` en `hardhat/scripts/`
+* 💼 Edita tus scripts de despliegue `deployGoerli.ts` y `deployMumbai.ts` en `hardhat/scripts/`
 ---
 
-### 🚀 Desplegar su front-end en Vercel!
+### 🚀 Despliega tu front-end en Vercel!
 [Clic Para Desplegar](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
 ---
 
-### ❓ ¿Tiene un problema o ideas de mejora o necesita ayuda?
-* Envíame un mensaje en twt or telegram: @hello-dayana
-* Abrir un Github Issue
+### ❓ ¿Tienes un problema o ideas de mejora o necesitas ayuda?
+* Mándame un mensaje en twitter o telegram: @hello-dayana
+* Abre un Github Issue
 * Crea un Pull Request
 
 # 📚 Recursos

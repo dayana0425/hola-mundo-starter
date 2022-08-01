@@ -2,19 +2,19 @@
 * [Click for English 🌈](#english)
 ---
 ## <a name="spanish">Español 🌈</a>
-# 👋 ¡Bienvenido al lado del desarrollo de smart contracts de este proyecto!
+# 👋 ¡Bienvenidx a la sección de desarrollo de smart contracts de este proyecto!
 
 ### Vamos a usar hardhat para nuestro desarollo de smart contracts
 
 ### Que es hardhat? 
 > Hardhat es un entorno de desarrollo para el software Ethereum. 
-> Consta de diferentes componentes para editar, compilar, depurar e implementar sus contratos inteligentes y dApps, todos los cuales trabajan juntos para crear un entorno de desarrollo completo. Hardhat Docs: https://hardhat.org/docs
+> Consta de diferentes componentes para editar, compilar, depurar e implementar sus contratos inteligentes y dApps, todos trabajan juntos para crear un entorno de desarrollo completo. Hardhat Docs: https://hardhat.org/docs
 ---
 
-### Establecer Variables De Entorno
-* IMPORTANTE: configure primero las variables de entorno antes de ejecutar los comandos.
-* Cree un archivo `.env` dentro de `hardhat/` duplicando el archivo `.env.example` provisto.
-* Reemplace los valores de las variables con las claves api/urls api/claves privadas de las cuentas que creó en Metamask/Alchemy/Etherscan y que utilizará para el desarrollo web3.
+### Establecer variables de entorno
+* IMPORTANTE: configura primero las variables de entorno antes de ejecutar los comandos.
+* Crea un archivo `.env` dentro de `hardhat/` duplicando el archivo `.env.example` provisto.
+* Sustituye los valores de las variables con las claves api/urls api/claves privadas de las cuentas que creaste en Metamask/Alchemy/Etherscan y que utilizarás para el desarrollo web3.
 
 ---
 # Comandos - Puedes ver los scripts para estos comandos en `package.json`
@@ -30,7 +30,7 @@ yarn verify
 yarn accounts
 yarn hello
 ```
-# Realmente solo necesitarás usar estos comandos:
+# Realmente sólo necesitarás utilizar estos comandos:
 
 ```bash
 yarn compile
@@ -38,7 +38,7 @@ yarn deploy-goerli
 yarn deploy-mumbai
 ```
 
-# Si necessitas ayuda o mas informacion sobre los comandos disponibles:
+# Si necessitas ayuda o más informacion de los comandos disponibles:
 ```bash
 yarn hardhat help
 ```
@@ -46,18 +46,18 @@ yarn hardhat help
 
 # Información de la carpeta `hardhat/`
 ### contracts/
-* ¡Almacene todos sus archivos de Solidity aquí!
+* ¡Almacena todos tus archivos de Solidity aquí!
 * Ejemplo de archivo Solidity: HolaMundo.sol
-* ¡Agregue más archivos de Solidity según lo necesite su proyecto!
+* ¡Agrega más archivos de Solidity según lo necesite tu proyecto!
 
 ### scripts/
-* deployGeneral.ts - script para la desplegar en general
+* deployGeneral.ts - script para desplegar en general
 * deployGoerli.ts - script para desplegar a Goerli testnet
 * deployMumbai.ts - script para desplegar a Polygon Mumbai testnet
-* ¡Agregue más scripts para probar sus smart contracts y desplegar a los testnets!
+* ¡Agregua más scripts para probar tus smart contracts y desplegar a las testnets!
 ---
 
-# Antes de desplegar sus smart contracts, tienes que compilar:
+# Antes de desplegar tus smart contracts, tienes que compilar:
 ```
 yarn compile
 ```
