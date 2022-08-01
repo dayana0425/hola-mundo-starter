@@ -1,7 +1,7 @@
 # Welcome to the Front-End of our DApp!
 # ¡Bienvenido al Front-End de nuestra DApp!
-> Este es un Next.js App que usa Typescript y Tailwind CSS
-> Tambien se usa Wagmi para poder interactuar con los smart contracts desde el Front-end
+* Este es un Next.js App que usa Typescript y Tailwind CSS
+* Tambien se usa Wagmi para poder interactuar con los smart contracts desde el Front-end
 
 # Folder Information
 ### pages/
