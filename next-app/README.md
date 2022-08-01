@@ -30,10 +30,10 @@ yarn build
 yarn start
 yarn lint 
 ```
+---
 
 ## English 🌈
 # 👋 Welcome to the Front-End of our DApp!
-# 👋 ¡Bienvenido al Front-End de nuestra DApp!
 * This is a Next.js App that uses Typescript and Tailwind CSS.
 * WAGMI is also used, which is a tool, to be able to interact with smart contracts from the Front-end by providing React Hooks for Ethereum.
 
