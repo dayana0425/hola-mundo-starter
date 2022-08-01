@@ -50,14 +50,15 @@ git --version
 * [Etherscan](https://etherscan.io/apis)
   * Genere una clave api.
 
-### Add Testnet Networks for Goerli y Polygon Mumbai on Metamask
-* How to add Ethereum Testnets: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
-* How to add Polygon Mumbai Testnet: https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
+### Agregue Redes Testnet para Goerli y Polygon Mumbai en Metamask:
+* Cómo agregar redes de prueba de Ethereum: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
+* Cómo agregar Polygon Mumbai Testnet en Metamask: https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
 
-### Fund Your Account(s):
-> Financie sus cuentas
+### Financie Sus Cuentas:
 * [Georli Faucet](https://goerlifaucet.com/)
 * [Polygon Faucet (Mumbai Network)](https://faucet.polygon.technology/)
+
+---
 
 ### Let's Get Building!
 > Vamos a construir!
@@ -176,6 +177,11 @@ A multi-chain starter project to get you quickly setup for building your Dapp on
 
 # 🏄‍♂️ Quick Start
 ### Before you clone this project make sure you have the following installed on your machine (in this order)!
+
+* [Node.js](https://nodejs.org/en/) 
+* [Yarn](https://classic.yarnpkg.com/en/docs/install/)
+* [Git](https://git-scm.com/downloads)
+
 ### You can check by running these commands on your terminal
 
 ```bash
@@ -195,3 +201,13 @@ git --version
 * [Etherscan](https://etherscan.io/apis)
   * Generate an api key.
   * Save your api key in your notes.
+
+### Add Testnet Networks for Goerli y Polygon Mumbai on Metamask:
+* How to add Ethereum Testnets: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
+* How to add Polygon Mumbai Testnet: https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
+
+### Fund Your Account(s):
+* [Georli Faucet](https://goerlifaucet.com/)
+* [Polygon Faucet (Mumbai Network)](https://faucet.polygon.technology/)
+
+---
