@@ -2,7 +2,7 @@
 * [Clic para Español 🌈](#spanish)
 * [Click for English 🌈](#english)
 ---
-## <a name="spanish">Español 🌈</a>
+## <a name="spanish">Español - Translations by @0xyNaMu 🌈</a>
 ![Figure 1](./images/holamundodapp.png)
 ---
 <p>
