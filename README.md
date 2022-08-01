@@ -68,7 +68,7 @@ git --version
 * Segundo, abre tu terminal y ejecuta el siguiente comando con los nombres que correspondan en tu caso.
   
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
+git clone https://github.com/<YOUR-USERNAME>/hola-mundo-starter
 ```
 ---
 
