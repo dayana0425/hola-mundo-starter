@@ -1,5 +1,5 @@
 # 👋 Hola Mundo Web3 Starter Project - (English/Español)!
-
+> The first section is in Español 🌈, scroll down for English 🌈!
 ## Español 🌈
 ![Figure 1](./images/holamundodapp.png)
 ---
@@ -103,7 +103,12 @@ yarn install
 [Clic Para Desplegar](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
 ---
 
-# 📚 Resources
+### ❓ ¿Tiene un problema o ideas de mejora o necesita ayuda?
+* Envíame un mensaje en twt or telegram: @hello-dayana
+* Abrir un Github Issue
+* Crea un Pull Request
+
+# 📚 Recursos
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
 Next.js: https://nextjs.org/docs
@@ -149,7 +154,9 @@ https://www.notion.so/ce46ba1864254908a4f24c3815125262?v=7d9b9a55be0748148b6b9d0
 Notion Template for Hackathons (By Women in Web3):
 https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee56505a49ec8c0a884ca4c63be0
 
+# 🚀 WAGMI
 ---
+
 # English 🌈
 ![Figure 1](./images/holamundodapp.png)
 <p>
@@ -253,6 +260,12 @@ yarn install
 [Click to Deploy](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
 ---
 
+### ❓ Have an Issue or Improvement Ideas or Need Help?
+* Message me on twt or telegram: @hello-dayana
+* Open a Github Issue
+* Create a Pull Request
+---
+
 # 📚 Resources
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
@@ -299,3 +312,4 @@ https://www.notion.so/ce46ba1864254908a4f24c3815125262?v=7d9b9a55be0748148b6b9d0
 Notion Template for Hackathons (By Women in Web3):
 https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee56505a49ec8c0a884ca4c63be0
 
+# 🚀 WAGMI
