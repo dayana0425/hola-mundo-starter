@@ -68,20 +68,24 @@ git --version
 ```bash
 git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
 ```
+---
 
-* Instale todas las dependencias del proyecto 👷‍ cambiando los directorios a hardhart/ y luego, next-app/ y ejecutando `yarn install`:
-### Primero: En una ventana de terminal, intala las dependencias para desarollo de smart contracts
+### Instale todas las dependencias del proyecto 👷‍ cambiando los directorios a `hardhart/` y luego, `next-app/` y ejecutando `yarn install`:
+
+* Primero: En una ventana de terminal, intala las dependencias para desarollo de smart contracts
 ```bash
 cd /hardhat
 yarn install
 ```
 
-### Segundo: Abre otra ventana de terminal para instalar la dependencias del front-end
+* Segundo: Abre otra ventana de terminal para instalar la dependencias del front-end
 ```bash
 cd /next-app
 yarn install
 ```
-### Listo! 💘
+* Listo! 💘
+
+---
 
 ### EN: You will have two terminal windows open, one for your front-end and one for smart-contract development
 * Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
