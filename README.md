@@ -83,6 +83,7 @@ yarn install
 # 🚀 Deploy your front-end to Vercel!
 
 <br/>
+
 # 📚 Resources
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
