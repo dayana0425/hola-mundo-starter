@@ -1,5 +1,5 @@
 # 👋 Hola Mundo Web3 Starter Project - (English/Español)!
-> The first section is in Español 🌈, scroll down for English 🌈!
+*The first section is in Español 🌈! Scroll down for English 🌈!*
 ## Español 🌈
 ![Figure 1](./images/holamundodapp.png)
 ---
