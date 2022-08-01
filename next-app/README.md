@@ -13,7 +13,8 @@
 * aqui puedes configura los estilos para tus componentes usando Tailwind CSS
 ### utils/ABI/
 * aqui se guarda el ABI cada vez que usas el comando `deploy-mumbai` o `delpoy-goerli` dentro del folder `hardhat/`
-### utils/ContractAddresses - aqui se guarda todas las direcciones de tus contractos cade vez que desplegas un contracto al blockchain cuando usas los comandos `deploy-mumbai` o `delpoy-goerli` dentro del folder `hardhat/`
+### utils/ContractAddresses 
+* aqui se guarda todas las direcciones de tus contractos cade vez que desplegas un contracto al blockchain cuando usas los comandos `deploy-mumbai` o `delpoy-goerli` dentro del folder `hardhat/`
 ---
 # Ejecutar frontend en host local
 > Abra otra ventana de terminal para iniciar la 📱 interfaz/front-end (asegúrate de estar dentro de la carpeta `/next-app`):
@@ -47,7 +48,8 @@ yarn lint
 * here you can set the styles for your components using Tailwind CSS
 ### utils/ABI/
 * this is where the ABI is saved every time you use the `deploy-mumbai` or `delpoy-goerli` command inside the `hardhat/`do Tailwind CSS folder
-### utils/ContractAddresses - this is where all your contract addresses are stored each time you deploy a contract to the blockchain when you use the `deploy-mumbai` or `delpoy-goerli` commands inside the `hardhat/` folder.
+### utils/ContractAddresses
+* this is where all your contract addresses are stored each time you deploy a contract to the blockchain when you use the `deploy-mumbai` or `delpoy-goerli` commands inside the `hardhat/` folder.
 ---
 # Run frontend on local host
 > Open another terminal window to launch the 📱 front-end (make sure you're inside the `/next-app` folder):
