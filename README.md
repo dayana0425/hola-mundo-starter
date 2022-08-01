@@ -91,6 +91,8 @@ Next.js: https://nextjs.org/docs
 <br/>
 Tailwind CSS: https://tailwindcss.com/docs/installation
 <br/>
+Flowbit Components: https://flowbite.com/
+<br/>
 Hardhat: https://hardhat.org/getting-started/
 <br/>
 Ethers.js: https://docs.ethers.io/v5/
@@ -104,3 +106,11 @@ https://www.markdownguide.org/cheat-sheet/
 <br/>
 Solidity Tutorial: Crypto Zombies (Español)
 https://cryptozombies.io/es/course
+<br/>
+Visual Studio Code:
+https://code.visualstudio.com/
+<br/>
+Dev Setup for Mac:
+https://www.youtube.com/watch?v=KwYqtbSwnH8
+<br/> Git Commands Cheatsheet:
+https://www.hostinger.com/tutorials/basic-git-commands
