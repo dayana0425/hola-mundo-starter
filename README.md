@@ -101,3 +101,6 @@ Wagmi: https://wagmi.sh/docs/getting-started
 <br/>
 Markdown Cheatsheet: 
 https://www.markdownguide.org/cheat-sheet/
+<br/>
+Solidity Tutorial: Crypto Zombies (Español)
+https://cryptozombies.io/es/course
