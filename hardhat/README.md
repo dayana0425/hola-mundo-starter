@@ -32,7 +32,7 @@ yarn deploy-mumbai
 
 ```
 
-# Si necessitas ayuda:
+# Si necessitas ayuda o mas informacion sobre los comandos disponibles:
 ```
 yarn hardhat help
 ```
