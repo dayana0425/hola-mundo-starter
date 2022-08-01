@@ -84,23 +84,25 @@ cd /next-app
 yarn install
 ```
 * Listo! 💘
-
 ---
+
 ### Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
 * Vaya a hardhat/README.md para obtener más información sobre los comandos a ejecutar para compilar/desplegar smart contracts.
 * Vaya a next-app/README.md para obtener más información sobre los comandos a ejecutar para ejecutar su interfaz (front-end)
-<br/> 
+---
 
-# 🚧 Logistics
-🔏 Edit your smart contract `HolaMundo.sol` in `hardhat/contracts/`
+### 🚧 Logísticas
+* 🔏 Edita tu smart contract `HolaMundo.sol` in `hardhat/contracts/`
 
-📝 Edit your frontend `index.tsx` in `next-app/pages/`
+* 📝 Edita tu frontend `index.tsx` in `next-app/pages/`
 
-💼 Edit your deployment scripts `deploy.ts` in `hardhat/scripts/`
+* 💼 Edita tu despliegue scripts `deploy.ts` in `hardhat/scripts/`
+---
 
-# 🚀 Deploy your front-end to Vercel!
-[Click to Deploy](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
-<br/>
+### 🚀 Desplegar su front-end en Vercel!
+[Clic Para Desplegar](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
+---
+
 # 📚 Resources
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
@@ -233,23 +235,24 @@ yarn install
 ```
 * Ready! 💘
 ---
-### You will have two terminal windows open, one for your front-end and one for smart-contract development
+
+### 💡 You will have two terminal windows open: One for your front-end & one for smart contract development.
 * Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
 * Navigate to next-app/README.md for more information on commands to run for running your front-end
-
+---
 
 ### 🚧 Logistics
-🔏 Edit your smart contract `HolaMundo.sol` in `hardhat/contracts/`
+* 🔏 Edit your smart contract `HolaMundo.sol` in `hardhat/contracts/`
 
-📝 Edit your frontend `index.tsx` in `next-app/pages/`
+* 📝 Edit your frontend `index.tsx` in `next-app/pages/`
 
-💼 Edit your deployment scripts `deploy.ts` in `hardhat/scripts/`
-
+* 💼 Edit your deployment scripts `deploy.ts` in `hardhat/scripts/`
 ---
+
 ### 🚀 Deploy your front-end to Vercel!
 [Click to Deploy](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
-
 ---
+
 # 📚 Resources
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
