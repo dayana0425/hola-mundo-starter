@@ -21,6 +21,7 @@
 > Puedes verificar ejecutando estos comandos en su terminal
 ```
 node -v
+npm -v
 yarn -v
 git --version
 ```
