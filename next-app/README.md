@@ -1,7 +1,7 @@
 # Welcome to the Front-End of our DApp!
 # ¡Bienvenido al Front-End de nuestra DApp!
-* Este es un Next.js App que usa Typescript y Tailwind CSS
-* Tambien se usa Wagmi para poder interactuar con los smart contracts desde el Front-end
+* EN: Este es un Next.js App que usa Typescript y Tailwind CSS
+* ESP: Tambien se usa Wagmi para poder interactuar con los smart contracts desde el Front-end
 
 # Folder Information
 ### pages/
@@ -15,9 +15,14 @@
 * ContractAddresses - aqui se guarda las las direcciones de tus contractos cade vez que desplegas un contracto cuando usas los comandos `deploy-mumbai` o `delpoy-goerli` 
 
 # EJECUTAR EL FRONT-END EN SU ENTORNO LOCAL
-```
+
+> Abra otra ventana de terminal para iniciar la 📱 interfaz (front-end):
+
+```bash
 yarn dev
 ```
+
+> Abra http://localhost:3000 para ver la interfaz de la aplicación!
 
 # Tambien puedes usar estos comandos - puedes fijarte en package.json los scripts
 ```

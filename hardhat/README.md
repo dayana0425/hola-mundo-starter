@@ -8,6 +8,14 @@
 > Hardhat es un entorno de desarrollo para el software Ethereum. 
 > Consta de diferentes componentes para editar, compilar, depurar e implementar sus contratos inteligentes y dApps, todos los cuales trabajan juntos para crear un entorno de desarrollo completo.
 
+### Set Enviornment Variables - Configure las variables de entorno:
+* IMPORTANT, set enviornment variables first!
+  * ¡IMPORTANTE, establezca primero las variables de entorno!
+* Create a `.env` file inside of `hardhat/` by duplicating the `.env.example` file provided
+  * Cree un archivo `.env` dentro de `hardhat/` duplicando el archivo `.env.example` proporcionado
+* Replace the variable values with the api keys/urls/private key from the accounts you made on Metamask/Alchemy/Etherscan
+  * Reemplace los valores de las variables con las claves API/URL/clave privada de las cuentas que creó en Metamask/Alchemy/Etherscan
+
 # Commands - You can view the scripts for these commands in package.json
 # Comandos - Puedes ver los scripts para estos comandos en package.json
 ```
