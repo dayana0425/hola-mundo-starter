@@ -37,6 +37,10 @@ git --version
   * After signing up, generate an api key
   * Después de registrarse, genere una clave api
 
+### Add Testnet Networks for Goerli y Polygon Mumbai on Metamask
+* How to add Ethereum Testnets: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
+* How to add Polygon Mumbai Testnet: https://docs.polygon.technology/docs/develop/metamask/config-polygon-on-metamask/
+
 ### Fund Your Account(s):
 > Financie sus cuentas
 * [Georli Faucet](https://goerlifaucet.com/)
