@@ -1,5 +1,7 @@
-*The first section is in Español 🌈! Scroll down for English 🌈!*
-## Español 🌈
+* [Clic para Español 🌈](#spanish)
+* [Click for English 🌈](#english)
+---
+## <a name="spanish">Español 🌈</a>
 # 👋 ¡Bienvenido al Front-End de nuestra DApp!
 * Este es un Next.js App que usa Typescript y Tailwind CSS.
 * También se utiliza WAGMI, que es una herramienta, para poder interactuar con smart contracts desde el Front-end proporcionando React Hooks para Ethereum.
@@ -33,7 +35,7 @@ yarn lint
 ```
 ---
 
-## English 🌈
+## <a name="english">English 🌈</a>
 # 👋 Welcome to the Front-End of our DApp!
 * This is a Next.js App that uses Typescript and Tailwind CSS.
 * WAGMI is also used, which is a tool, to be able to interact with smart contracts from the Front-end by providing React Hooks for Ethereum.
