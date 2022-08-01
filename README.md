@@ -1,11 +1,11 @@
 # 👋 Hola Mundo Web3 Starter Kit - (English/Español)!
 
 ![Figure 1](./images/holamundodapp.png)
-* A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
-* ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
-* Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. :)
+* EN: A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
+  * ESP: ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
+  * ESP: Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. :)
 
-
+# 🤖 TECH STACK & NETWORK INFO
 * Stack Used: Typescript, Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI
 * Networks: Goerli & Polygon Mumbai Testnets
 
@@ -45,7 +45,7 @@ git --version
 > Vamos a construir!
 * EN: First, fork this project by clicking the fork button in the upper right hand corner of the repo page.
   * ESP: Primero, 'FORK' este proyecto haciendo clic en el botón de 'FORK' en la esquina superior derecha de la página del repositorio.
-  * ![Figure 2](./images/fork.png)
+![Figure 2](./images/fork.png)
 * EN: Second, open your terminal and run the following command with the correct inputs.
   * ESP: En segundo lugar, abra su terminal y ejecute el siguiente comando con las entradas correctas.
   
@@ -71,11 +71,9 @@ yarn install
 ### ESP: Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
 * Vaya a hardhat/README.md para obtener más información sobre los comandos a ejecutar para compilar/desplegar smart contracts.
 * Vaya a next-app/README.md para obtener más información sobre los comandos a ejecutar para ejecutar su interfaz (front-end)
-  
 <br/> 
 
 # 🚧 Logistics
-
 🔏 Edit your smart contract `HolaMundo.sol` in `hardhat/contracts/`
 
 📝 Edit your frontend `index.tsx` in `next-app/pages/`
@@ -85,7 +83,6 @@ yarn install
 # 🚀 Deploy your front-end to Vercel!
 
 <br/>
-
 # 📚 Resources
 Solidity: https://docs.soliditylang.org/en/v0.8.15/
 <br/>
