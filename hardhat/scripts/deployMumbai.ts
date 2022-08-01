@@ -28,7 +28,6 @@ async function main() {
     signer
   );
 
-  console.log("Deploying HolaMundo contract");
   const contract = await contractFactory.deploy();
   console.log("Awaiting confirmations");
   await contract.deployed();
