@@ -41,30 +41,34 @@ yarn deploy-mumbai
 ```bash
 yarn hardhat help
 ```
+---
 
-# Folder Information
+# Información de la carpeta `hardhat/`
 ### contracts/
-* Store all your solidity files here 
-* Almacene todos sus archivos de solidez aquí
-* HolaMundo.sol
+* ¡Almacene todos sus archivos de Solidity aquí!
+* Ejemplo de archivo Solidity: HolaMundo.sol
+* ¡Agregue más archivos de Solidity según lo necesite su proyecto!
 
 ### scripts/
-* deployGeneral.ts - script para lanzar general
-* deployGoerli.ts - script para lanzar al testnet Goerli 
-* deployMumbai.ts - script para lanzar al testnet Mumbai
+* deployGeneral.ts - script para la desplegar en general
+* deployGoerli.ts - script para desplegar a Goerli testnet
+* deployMumbai.ts - script para desplegar a Polygon Mumbai testnet
+* ¡Agregue más scripts para probar sus smart contracts y desplegar a los testnets!
+---
 
-# Antes de lanzar/desplegar, compilar los smart contracts!
+# Antes de desplegar sus smart contracts, tienes que compilar:
 ```
 yarn compile
 ```
-# Lanzar/desplegar al testnet goerli
+# Luego puedes deplegar a Goerli testnet:
 ```
 yarn deploy-goerli
 ```
-# Lanzar/desplegar al testnet mumbai
+# Y deplegar a Polygon Mumbai testnet:
 ```
 yarn deploy-mumbai
 ```
+---
 
 ## English 🌈
 # 👋 Welcome to the smart contract development side of this this project!
@@ -94,3 +98,31 @@ yarn compile
 yarn deploy-goerli
 yarn deploy-mumbai
 ```
+
+# Folder Information
+### contracts/
+* Store all your solidity files here!
+* Example Solidity File: HolaMundo.sol
+* Add more Solidity files as need by your project!
+
+### scripts/
+* deployGeneral.ts - script for deploying in general
+* deployGoerli.ts - script for deploying to Goerli testnet
+* deployMumbai.ts - script for deploying to Polygon Mumbai testnet
+* Feel free to add more scripts for testing your smart contracts!
+
+---
+
+# Before deploying your smart contracts, you have to compile:
+```
+yarn compile
+```
+# Then you can deploy to Goerli testnet:
+```
+yarn deploy-goerli
+```
+# And deploy to Polygon Mumbai testnet:
+```
+yarn deploy-mumbai
+```
+---
