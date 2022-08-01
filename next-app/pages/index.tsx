@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { useEffect, useState } from 'react';
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import { useNetwork, useContract, useProvider, useSigner, useConnect, useAccount } from 'wagmi';
+import { useNetwork, useContract, useProvider, useSigner } from 'wagmi';
 
 import styles from '../styles/Home.module.css';
 import Spinner from "./Components/Spinner";
@@ -30,8 +30,6 @@ const Home: NextPage = () => {
   const contractABI = abiJSON;
   const signer = useSigner();
   const provider = useProvider();
-  const { connector: activeConnector, isConnected } = useAccount()
-  const { connect, connectors, error, isLoading, pendingConnector } = useConnect()
 
   // Mumabi Contract
   const contractOnMumbai = useContract({
@@ -121,12 +119,12 @@ const Home: NextPage = () => {
         <br></br>
         <div>
           <h1 className={styles.description}>      
-            {chain && isConnected ?
+            {chain &&
             <div>
               <b>Actualmente conectado a la red:</b>
               <br></br>
               <u>{chain.name}</u>
-            </div> : "Hola"}
+            </div>}
           </h1>
         </div>
 
