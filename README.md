@@ -60,29 +60,28 @@ git --version
 
 ---
 
-### Let's Get Building!
-> Vamos a construir!
-* EN: First, fork this project by clicking the fork button in the upper right hand corner of the repo page.
-  * ESP: Primero, 'FORK' este proyecto haciendo clic en el botón de 'FORK' en la esquina superior derecha de la página del repositorio.
+### Vamos a Construir!
+* Primero, `Fork` este proyecto haciendo clic en el botón de `Fork` en la esquina superior derecha de la página del repositorio.
 ![Figure 2](./images/fork.png)
-* EN: Second, open your terminal and run the following command with the correct inputs.
-  * ESP: En segundo lugar, abra su terminal y ejecute el siguiente comando con las entradas correctas.
+* Segundo, abra su terminal y ejecute el siguiente comando con las entradas correctas.
   
 ```bash
 git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
 ```
 
-* EN: install all project 👷‍ dependencies by changing directories into hardhart/ and then, next-app/ and running `yarn install`:
-  * ESP: instale todas las dependencias del proyecto 👷‍ cambiando los directorios a hardhart/ y luego, next-app/ y ejecutando `yarn install`:
+* Instale todas las dependencias del proyecto 👷‍ cambiando los directorios a hardhart/ y luego, next-app/ y ejecutando `yarn install`:
+### Primero: En una ventana de terminal, intala las dependencias para desarollo de smart contracts
 ```bash
 cd /hardhat
 yarn install
 ```
-### Open another terminal window - Abre otra ventana de terminal 
+
+### Segundo: Abre otra ventana de terminal para instalar la dependencias del front-end
 ```bash
 cd /next-app
 yarn install
 ```
+### Listo! 💘
 
 ### EN: You will have two terminal windows open, one for your front-end and one for smart-contract development
 * Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
@@ -211,3 +210,34 @@ git --version
 * [Polygon Faucet (Mumbai Network)](https://faucet.polygon.technology/)
 
 ---
+### Let's Get Building!
+> Vamos a construir!
+* EN: First, fork this project by clicking the fork button in the upper right hand corner of the repo page.
+  * ESP: Primero, 'FORK' este proyecto haciendo clic en el botón de 'FORK' en la esquina superior derecha de la página del repositorio.
+![Figure 2](./images/fork.png)
+* EN: Second, open your terminal and run the following command with the correct inputs.
+  * ESP: En segundo lugar, abra su terminal y ejecute el siguiente comando con las entradas correctas.
+  
+```bash
+git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
+```
+
+* EN: install all project 👷‍ dependencies by changing directories into hardhart/ and then, next-app/ and running `yarn install`:
+  * ESP: instale todas las dependencias del proyecto 👷‍ cambiando los directorios a hardhart/ y luego, next-app/ y ejecutando `yarn install`:
+```bash
+cd /hardhat
+yarn install
+```
+### Open another terminal window - Abre otra ventana de terminal 
+```bash
+cd /next-app
+yarn install
+```
+
+### EN: You will have two terminal windows open, one for your front-end and one for smart-contract development
+* Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
+* Navigate to next-app/README.md for more information on commands to run for running your front-end
+### ESP: Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
+* Vaya a hardhat/README.md para obtener más información sobre los comandos a ejecutar para compilar/desplegar smart contracts.
+* Vaya a next-app/README.md para obtener más información sobre los comandos a ejecutar para ejecutar su interfaz (front-end)
+<br/> 
