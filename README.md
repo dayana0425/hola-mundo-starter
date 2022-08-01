@@ -22,34 +22,33 @@ Este proyecto es considerado "multi-chain" porque es compatible con las redes de
  - Polygon Mumbai: https://mumbai.polygonscan.com/
 #### Despliegue:
  - Vercel: https://vercel.com/
+ 
+ ---
 
-# 🏄‍♂️ Quick Start
+# 🏄‍♂️ Inicio Rápido
 
-### Before you clone this project make sure you have the following installed on your machine (in this order)
-> Antes de clonar este proyecto, asegúrese de tener instalado lo siguiente en su máquina (en este orden)
-* [Node.js](https://nodejs.org/en/)
+### Antes de clonar este proyecto, asegúrese de tener instalado lo siguiente en su máquina (en esta orden)!
+* [Node.js](https://nodejs.org/en/) 
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/)
 * [Git](https://git-scm.com/downloads)
 
-### You can check by running these commands on your terminal
-> Puedes verificar ejecutando estos comandos en su terminal
-```
+### Puedes verificar ejecutando estos comandos en su terminal para ver si ya los tienes instalados:
+
+```bash
 node -v
 npm -v
 yarn -v
 git --version
 ```
-### Create a Dev Wallet, Alchemy Account, and Etherscan Account:
-> Cree una billetera Burner, una cuenta de Alchemy y una cuenta de Etherscan
+### Crea una billetera de desarollo con Metamask, una cuenta de Alchemy y de Etherscan
 * [Metamask](https://metamask.io/) 
-   * EN: IMPORTANT: It is recommended you create a burner wallet to be used for development only, avoid using your regular metamask wallet!
-   * ESP: IMPORTANTE: se recomienda que cree una billetera de quemador para usar solo para desarrollo, ¡evite usar su billetera metamask normal!
+   * IMPORTANTE: se recomienda que crear una billetera solamente para desarrollo, ¡evite usar su billetera normal!
+   * Guarda tu llave privada en tus notas. 
 * [Alchemy](https://www.alchemy.com/)
-  * EN: After signing up, generate un api key for goerli & mumbai.
-  * ESP: Después de registrarse, genere una clave api para goerli & mumbai.
+  * Genere una clave api para goerli & mumbai.
+  * Guarda tus claves api y enlances en tus notas.
 * [Etherscan](https://etherscan.io/apis)
-  * After signing up, generate an api key
-  * Después de registrarse, genere una clave api
+  * Genere una clave api.
 
 ### Add Testnet Networks for Goerli y Polygon Mumbai on Metamask
 * How to add Ethereum Testnets: https://devtonight.com/articles/metamask-testnet-wallet-setup-for-blockchain-development
@@ -154,7 +153,9 @@ https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee5
 <p>
 A multi-chain starter project to get you quickly setup for building your Dapp on Ethereum and Polygon! (Project interacts with smart contracts deployed to Goerli & Polygon Mumbai test networks).
 </p>
+
 ---
+
 # 🤖 Tech Stack & Network Info
 
 #### Tech Stack Used: 
@@ -170,3 +171,27 @@ A multi-chain starter project to get you quickly setup for building your Dapp on
 - Polygon Mumbai: https://mumbai.polygonscan.com/
 #### Deployment:
 - Vercel: https://vercel.com/
+
+---
+
+# 🏄‍♂️ Quick Start
+### Before you clone this project make sure you have the following installed on your machine (in this order)!
+### You can check by running these commands on your terminal
+
+```bash
+node -v
+npm -v
+yarn -v
+git --version
+```
+
+### Create a Dev Wallet, Alchemy Account, and Etherscan Account:
+* [Metamask](https://metamask.io/) 
+   * IMPORTANT: It is recommended you create a wallet only to be used for development only, avoid using your regular wallet!
+   * Save your private keys / seed phrase in your notes. 
+* [Alchemy](https://www.alchemy.com/)
+  * Generate an api key for goerli & mumbai.
+  * Save your api keys/urls in your notes.
+* [Etherscan](https://etherscan.io/apis)
+  * Generate an api key.
+  * Save your api key in your notes.
