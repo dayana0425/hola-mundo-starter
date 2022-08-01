@@ -1,6 +1,8 @@
 # 👋 Hola Mundo Web3 Starter Project - (English/Español)!
-*The first section is in Español 🌈! Scroll down for English 🌈!*
-## Español 🌈
+* [Clic para Español 🌈](#spanish)
+* [Click for English 🌈](#english)
+---
+## <a name="spanish">Español 🌈</a>
 ![Figure 1](./images/holamundodapp.png)
 ---
 <p>
@@ -157,7 +159,7 @@ https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee5
 # 🚀 WAGMI
 ---
 
-# English 🌈
+## <a name="english">English 🌈</a>
 ![Figure 1](./images/holamundodapp.png)
 <p>
 A multi-chain starter project to get you quickly setup for building your Dapp on Ethereum and Polygon! (Project interacts with smart contracts deployed to Goerli & Polygon Mumbai test networks).
