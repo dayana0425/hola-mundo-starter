@@ -12,8 +12,9 @@ const { chains, provider, webSocketProvider } = configureChains(
     chain.polygonMumbai
   ],
   [
-    alchemyProvider({ apiKey: 'N4Mey8XJGiyn6qdLfuvKvejZmjzbGWpp'}),
-    publicProvider(),
+    alchemyProvider({ apiKey: 'N4Mey8XJGiyn6qdLfuvKvejZmjzbGWpp', stallTimeout: 1_000}),
+    alchemyProvider({ apiKey: '3MmBndzdyfcSWkkfmRTwpp9i9qWohlrh', stallTimeout: 1_000}),
+    publicProvider({stallTimeout: 1_000})
   ]
 );
 
@@ -40,10 +41,3 @@ function MyApp({ Component, pageProps }: AppProps) {
 }
 
 export default MyApp;
-
-
-//in your nextjs pages that trigger your smart contract calls, import this at the top:
-  //import connectContract from "../utils/connectContract";
-  //then when you want to call those functions:
-  //const rsvpContract = connectContract();
-  //const txn = await rsvpContract.youtFunction()

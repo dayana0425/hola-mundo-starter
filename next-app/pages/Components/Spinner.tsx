@@ -2,6 +2,11 @@ export default function Spinner() {
   return (
     <div className="flex justify-center items-center space-x-2">
       <div className="
+        p-2
+        font-extrabold 
+        text-transparent 
+        text-8xl 
+        bg-clip-text
         spinner-border
         animate-spin
         inline-block
