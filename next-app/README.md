@@ -6,9 +6,9 @@
 ---
 # Información De La Carpeta `/next-app`
 ### pages/
-* index.tsx - todo comienza aquí
-* _app.tsx - aqui configuramos WAGMI para poder usar 
-* Components/Spinner.tsx - esta es una animación que usamos para cuando estamos esperando una respuesta del blockchain, no es necessario pero es `cool` y lo puedes cambiar a otra diferent animación si quieres. 
+* **index.tsx** - todo comienza aquí
+* **_app.tsx** - aqui configuramos WAGMI para poder usar 
+* **Components/Spinner.tsx** - esta es una animación que usamos para cuando estamos esperando una respuesta del blockchain, no es necessario pero es `cool` y lo puedes cambiar a otra diferent animación si quieres. 
 ### styles/
 * aqui puedes configura los estilos para tus componentes usando Tailwind CSS
 ### utils/ABI/
@@ -41,9 +41,9 @@ yarn lint
 ---
 # Folder Information `/next-app`
 ### pages/
-* index.tsx - all app rendering starts here
-* _app.tsx - here we configure WAGMI to be able to use throughout our app
-* Components/Spinner.tsx - this is an animation we use for when we're waiting for a response from the blockchain, it's not necessary but it's `cool` and you can change it to a different animation if you want.
+* **index.tsx** - all app rendering starts here
+* **_app.tsx** - here we configure WAGMI to be able to use throughout our app
+* **Components/Spinner.tsx** - this is an animation we use for when we're waiting for a response from the blockchain, it's not necessary but it's `cool` and you can change it to a different animation if you want.
 ### styles/
 * here you can set the styles for your components using Tailwind CSS
 ### utils/ABI/
