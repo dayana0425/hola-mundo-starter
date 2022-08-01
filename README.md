@@ -29,7 +29,7 @@ git --version
    * EN: IMPORTANT: It is recommended you create a burner wallet to be used for development only, avoid using your regular metamask wallet!
    * ESP: IMPORTANTE: se recomienda que cree una billetera de quemador para usar solo para desarrollo, ¡evite usar su billetera metamask normal!
 * [Alchemy](https://www.alchemy.com/)
-  * EN: After signing up, generate an api key for goerli & mumbai.
+  * EN: After signing up, generate un api key for goerli & mumbai.
   * ESP: Después de registrarse, genere una clave api para goerli & mumbai.
 * [Etherscan](https://etherscan.io/apis)
   * After signing up, generate an api key
