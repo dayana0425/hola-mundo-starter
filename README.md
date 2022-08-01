@@ -92,11 +92,11 @@ yarn install
 ---
 
 ### 🚧 Logísticas
-* 🔏 Edita tu smart contract `HolaMundo.sol` in `hardhat/contracts/`
+* 🔏 Edita tu smart contract `HolaMundo.sol` en `hardhat/contracts/`
 
-* 📝 Edita tu frontend `index.tsx` in `next-app/pages/`
+* 📝 Edita tu frontend `index.tsx` en `next-app/pages/`
 
-* 💼 Edita tu despliegue scripts `deploy.ts` in `hardhat/scripts/`
+* 💼 Edita tu despliegue scripts `deployGoerli.ts` y `deployMumbai.ts` en `hardhat/scripts/`
 ---
 
 ### 🚀 Desplegar su front-end en Vercel!
@@ -246,7 +246,7 @@ yarn install
 
 * 📝 Edit your frontend `index.tsx` in `next-app/pages/`
 
-* 💼 Edit your deployment scripts `deploy.ts` in `hardhat/scripts/`
+* 💼 Edit your deployment scripts `deployGoerli.ts` and `deployMumbai.ts` in `hardhat/scripts/`
 ---
 
 ### 🚀 Deploy your front-end to Vercel!
