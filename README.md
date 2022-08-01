@@ -25,7 +25,7 @@ npm -v
 yarn -v
 git --version
 ```
-### Create a Burner Wallet, Alchemy Account, and Etherscan Account:
+### Create a Dev Wallet, Alchemy Account, and Etherscan Account:
 > Cree una billetera Burner, una cuenta de Alchemy y una cuenta de Etherscan
 * [Metamask](https://metamask.io/) 
    * EN: IMPORTANT: It is recommended you create a burner wallet to be used for development only, avoid using your regular metamask wallet!
