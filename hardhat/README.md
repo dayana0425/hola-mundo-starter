@@ -1,6 +1,7 @@
-*The first section is in Español 🌈! Scroll down for English 🌈!*
-
-## Español 🌈
+* [Clic para Español 🌈](#spanish)
+* [Click for English 🌈](#english)
+---
+## <a name="spanish">Español 🌈</a>
 # 👋 ¡Bienvenido al lado del desarrollo de smart contracts de este proyecto!
 
 ### Vamos a usar hardhat para nuestro desarollo de smart contracts
@@ -70,7 +71,7 @@ yarn deploy-mumbai
 ```
 ---
 
-## English 🌈
+## <a name="english">English 🌈</a>
 # 👋 Welcome to the smart contract development side of this this project!
 
 ### Set Enviornment Variables
