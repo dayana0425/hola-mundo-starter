@@ -1,13 +1,27 @@
-# 👋 Hola Mundo Web3 Starter Kit - (English/Español)!
+# 👋 Hola Mundo Web3 Starter Project - (English/Español)!
 
+## Español 🌈
 ![Figure 1](./images/holamundodapp.png)
-* EN: A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
-  * ESP: ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
-  * ESP: Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. :)
+---
+<p>
+Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon.
+Este proyecto es considerado "multi-chain" porque es compatible con las redes de prueba de Goerli y Mumbai (Las redes de prueda de Ethereum y Polygon).
+</p>
 
-# 🤖 Stack & Network Info
-* Stack Used: Typescript, Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI
-* Networks: Goerli & Polygon Mumbai Testnets
+# 🤖 Pila De Tech e Información De Redes
+#### Pila De Tech Usado: 
+ - Typescript
+ - Next.js
+ - Tailwind CSS 
+ - Hardhat
+ - Ethers.js
+ - Rainbow Wallet
+ - WAGMI
+#### Redes de Blockchain: 
+ - Goerli: https://goerli.etherscan.io/
+ - Polygon Mumbai: https://mumbai.polygonscan.com/
+#### Despliegue:
+ - Vercel: https://vercel.com/
 
 # 🏄‍♂️ Quick Start
 
@@ -134,3 +148,25 @@ https://www.notion.so/ce46ba1864254908a4f24c3815125262?v=7d9b9a55be0748148b6b9d0
 Notion Template for Hackathons (By Women in Web3):
 https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee56505a49ec8c0a884ca4c63be0
 
+---
+# English 🌈
+![Figure 1](./images/holamundodapp.png)
+<p>
+A multi-chain starter project to get you quickly setup for building your Dapp on Ethereum and Polygon! (Project interacts with smart contracts deployed to Goerli & Polygon Mumbai test networks).
+</p>
+---
+# 🤖 Tech Stack & Network Info
+
+#### Tech Stack Used: 
+- Typescript
+- Next.js
+- Tailwind CSS 
+- Hardhat
+- Ethers.js
+- Rainbow Wallet
+- WAGMI
+#### Networks: 
+- Goerli: https://goerli.etherscan.io/
+- Polygon Mumbai: https://mumbai.polygonscan.com/
+#### Deployment:
+- Vercel: https://vercel.com/
