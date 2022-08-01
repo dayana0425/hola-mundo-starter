@@ -236,3 +236,63 @@ yarn install
 ### You will have two terminal windows open, one for your front-end and one for smart-contract development
 * Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
 * Navigate to next-app/README.md for more information on commands to run for running your front-end
+
+
+### 🚧 Logistics
+🔏 Edit your smart contract `HolaMundo.sol` in `hardhat/contracts/`
+
+📝 Edit your frontend `index.tsx` in `next-app/pages/`
+
+💼 Edit your deployment scripts `deploy.ts` in `hardhat/scripts/`
+
+---
+### 🚀 Deploy your front-end to Vercel!
+[Click to Deploy](https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app)
+
+---
+# 📚 Resources
+Solidity: https://docs.soliditylang.org/en/v0.8.15/
+<br/>
+Next.js: https://nextjs.org/docs
+<br/>
+Tailwind CSS: https://tailwindcss.com/docs/installation
+<br/>
+Flowbit Components: https://flowbite.com/
+<br/>
+Hardhat: https://hardhat.org/getting-started/
+<br/>
+Ethers.js: https://docs.ethers.io/v5/
+<br/>
+Rainbow Kit: https://www.rainbowkit.com/docs/introduction 
+<br/>
+Wagmi: https://wagmi.sh/docs/getting-started
+<br/>
+Markdown Cheatsheet: 
+https://www.markdownguide.org/cheat-sheet/
+<br/>
+Solidity Tutorial: Crypto Zombies (Español)
+https://cryptozombies.io/es/course
+<br/>
+Visual Studio Code:
+https://code.visualstudio.com/
+<br/>
+Dev Setup for Mac:
+https://www.youtube.com/watch?v=KwYqtbSwnH8
+<br/> Git Commands Cheatsheet:
+https://www.hostinger.com/tutorials/basic-git-commands
+</br>
+Canva (Use for Pitch Deck):
+https://www.canva.com/
+</br>
+Miro (DApp Planning Whiteboard):
+https://miro.com/
+</br>
+Figma (DApp Wireframes):
+https://www.figma.com/
+</br>
+Notion for File Sharing/Collaborating:
+https://www.notion.so/ce46ba1864254908a4f24c3815125262?v=7d9b9a55be0748148b6b9d0b6e5f3b63
+</br>
+Notion Template for Hackathons (By Women in Web3):
+https://womeninweb3.notion.site/womeninweb3/Mini-Hack-Community-Template-65e5ee56505a49ec8c0a884ca4c63be0
+
