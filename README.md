@@ -5,7 +5,7 @@
   * ESP: ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
   * ESP: Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. :)
 
-# 🤖 TECH STACK & NETWORK INFO
+# 🤖 Stack & Network Info
 * Stack Used: Typescript, Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI
 * Networks: Goerli & Polygon Mumbai Testnets
 
