@@ -1,5 +1,6 @@
-# 👋 Hola Mundo Web3 Starter Kit - (English/Español)
+# 👋 Hola Mundo Web3 Starter Kit - (English/Español)!
 
+![Figure 1](./images/holamundodapp.png)
 * A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
 * ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
 * Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. :)
@@ -44,9 +45,10 @@ git --version
 > Vamos a construir!
 * EN: First, fork this project by clicking the fork button in the upper right hand corner of the repo page.
   * ESP: Primero, 'FORK' este proyecto haciendo clic en el botón de 'FORK' en la esquina superior derecha de la página del repositorio.
+  * ![Figure 2](./images/fork.png)
 * EN: Second, open your terminal and run the following command with the correct inputs.
   * ESP: En segundo lugar, abra su terminal y ejecute el siguiente comando con las entradas correctas.
-
+  
 ```bash
 git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY-NAME>
 ```
@@ -63,10 +65,10 @@ cd /next-app
 yarn install
 ```
 
-### You will have two terminal windows open, one for your front-end and one for smart-contract development
+### EN: You will have two terminal windows open, one for your front-end and one for smart-contract development
 * Navigate to hardhat/README.md for more information on commands to run for compiling/deploying smart contracts.
 * Navigate to next-app/README.md for more information on commands to run for running your front-end
-### Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
+### ESP: Tendrá dos ventanas de terminal abiertas, una para su front-end y otra para el desarrollo de smart-contract
 * Vaya a hardhat/README.md para obtener más información sobre los comandos a ejecutar para compilar/desplegar smart contracts.
 * Vaya a next-app/README.md para obtener más información sobre los comandos a ejecutar para ejecutar su interfaz (front-end)
   
