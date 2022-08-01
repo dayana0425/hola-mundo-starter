@@ -1,9 +1,12 @@
-# 👋 Hola Mundo Web3 Starter Kit
+# 👋 Hola Mundo Web3 Starter Kit - (English/Español)
 
-A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
+* A starter project to get you quickly setup for building your DApp on Ethereum and Polygon!
+* ¡Un proyecto inicial para configurar rápidamente la creación de su DApp en Ethereum y Polygon!
+* Este es un proyecto "multi-chain" compatible con las redes de prueba de goerli y mumbai, que pueden usar para el proximo hackathon. Espero que pueda ayudar. :)
+
 
 * Stack Used: Typescript, Next.js, Tailwind CSS, Hardhat, Ethers.js, Rainbow Wallet, and WAGMI
-* Networks: Goerli & Polygon Mumbai
+* Networks: Goerli & Polygon Mumbai Testnets
 
 # 🏄‍♂️ Quick Start
 
