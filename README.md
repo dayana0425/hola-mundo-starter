@@ -138,6 +138,12 @@ https://code.visualstudio.com/
 <br/>
 Dev Setup for Mac:
 https://www.youtube.com/watch?v=KwYqtbSwnH8
+<br/>
+The Git Book (Español):
+https://git-scm.com/book/es/v2
+<br/>
+Atlassian Git Guru:
+https://www.atlassian.com/git/tutorials
 <br/> Git Commands Cheatsheet:
 https://www.hostinger.com/tutorials/basic-git-commands
 </br>
@@ -288,8 +294,16 @@ Wagmi: https://wagmi.sh/docs/getting-started
 Markdown Cheatsheet: 
 https://www.markdownguide.org/cheat-sheet/
 <br/>
-Solidity Tutorial: Crypto Zombies (Español)
-https://cryptozombies.io/es/course
+The Git Book:
+https://git-scm.com/book/en/v2
+<br/>
+Atlassian Git Guru:
+https://www.atlassian.com/git/tutorials
+<br/> Git Commands Cheatsheet:
+https://www.hostinger.com/tutorials/basic-git-commands
+<br/>
+Solidity Tutorial: Crypto Zombies (English)
+https://cryptozombies.io/en/course
 <br/>
 Visual Studio Code:
 https://code.visualstudio.com/
