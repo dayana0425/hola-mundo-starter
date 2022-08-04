@@ -35,7 +35,7 @@ yarn hello
 ```bash
 yarn compile
 yarn deploy-goerli
-yarn deploy-mumbai
+yarn deploy-mumbai # In my experience, deploying to mumbai takes about 10 minutes to 2 hours.
 ```
 
 # Si necessitas ayuda o más informacion de los comandos disponibles:
